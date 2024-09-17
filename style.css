@@ -1,0 +1,33 @@
+body{
+    background-color: black;
+    color: #0a0;
+    font-family: "Handjet", system-ui;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 700px;
+    margin: 0px;
+}
+
+button{
+    background-color: rgb(62, 112, 62);
+    color: white;
+    font-family: "Handjet", system-ui;
+}
+
+.passo{
+    display: none;
+}
+
+.passo.ativo{
+    display: block;
+}
+
+main {
+    text-align: center;
+    max-width: 90%;
+}
+
+img {
+    max-width: 110%;
+}
